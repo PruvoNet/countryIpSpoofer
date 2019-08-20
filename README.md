@@ -35,10 +35,10 @@ yarn add country-ip-spoofer
 Before you begin, you need to prepare the data set to be used by the module (only perform once).  
 
 Please download the `IPV4 CSV` file from [IP2Location™](https://lite.ip2location.com/database/ip-country) and run 
-the following temp script:
+the following temp script (install the `csv` package if it is missing - you can delete it later):
 
 ```typescript
-import {createDataTable} from 'country-ip-spoofer';
+import {createDataTable} from 'country-ip-spoofer/dataTableCreator';
 
 const csfFile = 'path to the downloaded csv file';
 const outputFile = 'path to output the data set';

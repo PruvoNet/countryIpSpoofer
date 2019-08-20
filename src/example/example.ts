@@ -1,6 +1,7 @@
 'use strict';
 
-import {getIpOfCountry, setDataTable, createDataTable, DataTable} from '../';
+import {getIpOfCountry, setDataTable, DataTable} from '../';
+import {createDataTable} from '../dataTableCreator';
 import * as request from 'request';
 import * as fs from 'fs';
 

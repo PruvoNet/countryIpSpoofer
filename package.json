@@ -1,6 +1,6 @@
 {
   "name": "country-ip-spoofer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates random ip that belongs to a desired country",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -49,9 +49,8 @@
     "tempfile": "^3.0.0",
     "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
-    "typescript": "^3.5.3"
-  },
-  "dependencies": {
+    "typescript": "^3.5.3",
     "csv": "^4.0.0"
-  }
+  },
+  "dependencies": {}
 }

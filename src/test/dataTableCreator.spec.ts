@@ -3,7 +3,7 @@
 import * as fs from 'fs';
 import tempFile = require('tempfile');
 import {expect} from 'chai';
-import {createDataTable} from '../';
+import {createDataTable} from '../dataTableCreator';
 import {DataTable} from '../types';
 
 describe('data table creator', () => {

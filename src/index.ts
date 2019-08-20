@@ -7,7 +7,6 @@ import {numberToIp} from './numberToIp';
 import {DataTable, IIpRange} from './types';
 
 export * from './types';
-export {createDataTable} from './dataTableCreator';
 
 let dataTable: DataTable | undefined;
 
