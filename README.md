@@ -38,7 +38,7 @@ Please download the `IPV4 CSV` file from [IP2Location™](https://lite.ip2locati
 the following temp script (install the `csv` package if it is missing - you can delete it later):
 
 ```typescript
-import {createDataTable} from 'country-ip-spoofer/dataTableCreator';
+import {createDataTable} from 'country-ip-spoofer/dist/dataTableCreator';
 
 const csfFile = 'path to the downloaded csv file';
 const outputFile = 'path to output the data set';
