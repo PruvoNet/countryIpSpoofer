@@ -42,7 +42,7 @@
     "@types/node": "^12.3.1",
     "@types/request": "^2.48.2",
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nyc": "^14.1.1",
     "request": "^2.88.0",
     "source-map-support": "^0.5.13",
